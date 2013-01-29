@@ -39,12 +39,12 @@ Future goals include:
 Building and Testing
 --------------------
 
- $ make avian=<absolute path of avian source tree> \
-     scala=<absolute path of scala binary distribution> \
-     openjdk=<absolute path of openjdk binary distribution> \
-     openjdk-src=<absolute path of openjdk source code>
+    $ make avian=<absolute path of avian source tree> \
+        scala=<absolute path of scala binary distribution> \
+        openjdk=<absolute path of openjdk binary distribution> \
+        openjdk-src=<absolute path of openjdk source code>
 
- $ build/scala build/stage1
+    $ build/scala build/stage1
 
 Note that you may need to reset your terminal after running the above
 (e.g. using the "reset" command), since JLine does seem to clean up
